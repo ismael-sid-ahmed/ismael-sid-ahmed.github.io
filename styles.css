@@ -1,0 +1,246 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background-image: url("images/buzz-lightyear-factory.gif");
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 padding-right: 0;
+	 padding-left: 0;
+	 padding-bottom: 0;
+	 padding-top: 0;
+	 line-height: 600px;
+	 height: 100vh;
+	 background-attachment: fixed;
+	 background-size: 100vw;
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-size: 72PX;
+	 color: purple;
+	 margin: 0;
+	 width: clamp(200px, 100%, 7680px);
+}
+
+h2 {
+	background-color: #7FFFD4;
+	color: #000000;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	width: clamp(200px, 100%, 7680px);
+	height: 0;
+	top: 0px;
+	position: relative;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  line-height: 100px;
+  margin: 0;
+  top: 0px;
+}
+
+li a {
+  display: inline;
+  color: purple;
+  text-align: center;
+  padding: 22px 50px;
+  text-decoration: none;
+  margin:0;
+  top: 0px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4B0082;
+}
+
+h3 {
+	color: purple;
+	text-align: center;
+}
+
+.grid-container-projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #000000;
+  padding: 10px;
+
+}
+
+.projectpic {
+  background-color: #000000;
+  border: 1px solid #2F4F4F;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+	color: purple;
+}
+
+.pic {
+	grid-column: 1 / span 1;
+	grid-row: 1;
+	margin:0;
+	padding:0;
+	align-items: center;
+}
+
+.grid_aboutme_img {
+	display: grid;
+	grid-column: 1;
+	grid-template-columns: 3fr 6fr;
+	padding-right: 0px;
+	padding-left: 50px;
+}
+
+.grid_projects {
+	border: 1px solid purple;
+	grid-row: 2;
+	border: 2px solid purple;
+	grid-column: 1 / span 3;
+	grid-gap: 50px;
+	grid-template-rows: 525px 500px;
+	display: grid;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid purple;
+}
+
+.Ismael {
+	border: 2px solid purple;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+.project_img {
+	display: grid;
+	grid-template-rows: 300px;
+	grid-template-columns: 3fr 3fr 3fr;
+	grid-gap: 20px;
+}
+
+.imageSlides {
+  display: none
+}
+ 
+img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+ 
+/* Our main images-slideshow container */
+.images-slideshow {
+  max-width: 912px;
+  position: relative;
+  margin: auto;
+}
+ 
+/*Style for ">" next and "<" previous buttons */
+.slider-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 8px 16px;
+  margin-top: -22px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+ 
+/* setting the position of the previous button towards left */
+.previous {
+  left: 2%;
+}
+ /* setting the position of the next button towards right */
+.next {
+  right: 2%;
+}
+ 
+/* On hover, adding a background color */
+.previous:hover,
+.next:hover {
+  color: rgb(255, 253, 253);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aboutmetext {
+	padding-left: 50px;
+	display: grid;
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+hr {
+	color: purple;
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
+.projectimg {
+	border: 2px dashed purple;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.contact_form {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 2fr;
+	grid-gap: 20px;
+	color: white;
+	padding-left: 50px;
+}
+
+.nameform {
+	display: grid;
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.emailform {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template columns: 1fr;
+}
+
+.msgform {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto 100px;
+}
+
+.aboutme_img {
+	border: 2px solid purple;
+	border-radius: 20px;
+	padding: 10px;
+}
