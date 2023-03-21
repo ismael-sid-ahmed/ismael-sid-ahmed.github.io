@@ -20,11 +20,11 @@ function handleFormSubmission(event) {
 
 // Do form validation.
 function validate() {
-  // let message= '';
-  // if (!/someregex/.test(someField.value)) {
-  //   console.log(`Invalid value ${someField.value} for someField`);
-	// 	 message = 'Explain how to enter a valid value';
-  // }
-  // someInput.setCustomValidity(message);
+  let message= '';
+  if (!/someregex/.test(someField.value)) {
+     console.log(`Invalid value ${someField.value} for someField`);
+	 	 message = 'Explain how to enter a valid value';
+   }
+   someInput.setCustomValidity(message);
 }
 
