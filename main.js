@@ -1,11 +1,6 @@
 const form = document.querySelector('form');
 const completePaymentButton = document.querySelector('button#complete-payment');
 
-form.addEventListener('submit', handleFormSubmission);
-
-const form = document.querySelector('form');
-const completePaymentButton = document.querySelector('button#complete-payment');
-
 form.addEventListener('submit', handleFormSubmission);                       
 
 function handleFormSubmission(event) {
@@ -32,3 +27,4 @@ function validate() {
   // }
   // someInput.setCustomValidity(message);
 }
+
